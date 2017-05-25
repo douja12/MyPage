@@ -1,0 +1,102 @@
+h1{
+
+
+
+	background:#A9F5A9 ;
+	margin-top: 60px;
+	width: 250px;
+	height: 30px;
+	text-align:center;
+	font:italic normal 1.4em georgia;
+	border:  5px groove;
+}
+
+
+
+
+
+
+
+body
+{	position: absolute;
+	background-image: url("Imagenes/marron.jpg");		
+	line-height: 1.88889;
+	font-family: Arial;
+	margin: 0; 
+	padding: 0;
+	width: 400;
+	heigth: 400;
+	margin-left:740px;
+	margin-top:150px;
+}
+
+p
+{
+	color: #6E6E6E;
+	background: white;
+	margin-bottom:0px; 
+	margin-top:0px;
+	text-align: justify;
+    	border-right-style: solid;
+    	border-left-style: solid;   	
+	padding:0px 40px;
+	heigth: 0;
+}
+
+.user{
+
+font-weight:bold;
+font-size:20px;
+
+}
+.passwd{
+font-weight:bold;
+font-size:20px;
+}
+
+form{
+
+font-weight:bold;
+}
+
+.button{
+
+
+	background:#A9F5A9 ;
+	margin-top: 40px;
+	width: 110px;
+	height: 50px;
+	text-align:center;
+	font:italic normal 1.4em georgia;
+	border:  5px groove;
+}
+
+.button2{
+
+
+	background:#A9F5A9 ;
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	text-align:center;
+	font:italic normal 1.4em georgia;
+	border:  5px groove;
+}
+
+.ayuda{
+
+font-weight:bold;
+font-size:20px ;
+
+
+}
+.Name{
+
+font-weight:bold;
+font-size:20px;
+}
+.E-mail{
+
+font-weight:bold;
+font-size:20px;
+}
