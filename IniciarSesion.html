@@ -11,6 +11,19 @@ Interfaces Imaginadas
 </head>
 <body>
 
+		<script type="text/javascript">
+
+
+		document.getElementById('button1').onclick = myFunction()
+		{
+		   alert("Accediendo");
+		}
+		document.getElementById('button2').onclick = myFunction()
+		{
+		   alert("Se ha registrado correctamente");
+		}
+
+			</script>
 
 		<form   method ="post" action="IniciarSesion.html"  name="Acceder"  >
 
@@ -19,27 +32,14 @@ Interfaces Imaginadas
 			  Passwd<br>
 			  <input type="text" name="Passwd" class="passwd"><br><br>
 
-			  <input type="button" value="Acceder" id="button1">
+			  <input type="button" value="Acceder" id="button1"onclick="myFunction();"/>
 			<br></br><br>
 
 			  No tengo una cuenta  <br></br>
-			  <input type="button" value="Registrase" id="button2">
+			  <input type="button" value="Registrase" id="button2" onclick="myFunction();"/>
 
 
 		</form>
 
-<script type="text/javascript">
-  
-
-if(document.getElementById('button1').clicked == true)
-{
-   alert("Accediendo");
-}
-else if(document.getElementById('button2').clicked == true)
-{
-   alert("Se ha registrado correctamente");
-}
-	
-	</script>
 </body>
 </html>
