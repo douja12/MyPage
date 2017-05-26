@@ -95,6 +95,18 @@ font-weight:bold;
 	border:  5px groove;
 }
 
+.button{
+
+
+	background:#A9F5A9 ;
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	text-align:center;
+	font:italic normal 1.4em georgia;
+	border:  5px groove;
+}
+
 .ayuda{
 
 font-weight:bold;
