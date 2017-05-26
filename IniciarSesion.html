@@ -20,11 +20,11 @@ Interfaces Imaginadas
 			  Passwd<br>
 			  <input type="text" name="Passwd" class="passwd"><br><br>
 
-			  <input type="button" value="Acceder" id="button1"onclick="myFunction();"/>
+			  <input name ="button1" type="submit" value="Acceder" id="button1" onclick="myFunction1();"/>
 			<br></br><br>
 
 			  No tengo una cuenta  <br></br>
-			  <input name ="button2" type="submit" value="Registrase" id="button2" onclick="myFunction();"/>
+			  <input name ="button2" type="submit" value="Registrase" id="button2" onclick="myFunction2();"/>
 
 
 		</form>
@@ -34,9 +34,15 @@ Interfaces Imaginadas
 	
 
 <script>
-function myFunction(){
+function myFunction1(){
 
-alert("You button was pressed");
+alert("Accediendo");
+
+};
+	
+	function myFunction2(){
+
+alert("Se ha registrado correctamente");
 
 };
 
