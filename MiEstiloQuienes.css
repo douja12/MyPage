@@ -59,7 +59,7 @@ form{
 font-weight:bold;
 }
 
-.button{
+#button{
 
 
 	background:#A9F5A9 ;
@@ -71,7 +71,7 @@ font-weight:bold;
 	border:  5px groove;
 }
 
-.button2{
+#button2{
 
 
 	background:#A9F5A9 ;
